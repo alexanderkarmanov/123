@@ -6,6 +6,13 @@ body {
   background-image: url(../img/bg_5762.jpg);
   background-position: top center;
 }
+a {
+  text-decoration: none;
+  color: red;
+}
+a:active {
+  text-decoration: none;
+}
 .nav {
   width: 100%;
   background-color: #596275;
@@ -27,9 +34,11 @@ body {
 }
 .nav__item-link {
   color: #fff;
-  text-decoration: none;
   padding: 10px 20px;
   display: block;
+}
+.nav__item-link:hover {
+  text-decoration: none;
 }
 .nav__submenu {
   background: #51644c;
