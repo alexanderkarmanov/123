@@ -6,28 +6,19 @@ body {
 	background: #000;
 	background-image: url(../img/bg_5762.jpg);
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: top center;
 
 	@media (min-width: 576px) {
-		background-image : url(../img/bg_576.jpg);
+		background-image: url(../img/bg_576.jpg);
 		background-size: cover;
 		background-repeat: no-repeat;
-		background-position: center;
+		background-position: top center;
 
 	}
 }
 
 .container {
-min-height: 600px;
-}
-
-a {
-	text-decoration: none;
-	color: red;
-
-	&:active {
-		text-decoration: none;
-	}
+// min-height: 600px;
 }
 
 .nav {
@@ -103,4 +94,8 @@ a {
 
 .row {
 	padding: 10px;
+
+	@media (min-width: 576px) {
+		padding-top: 30px;
+	}
 }
