@@ -5,7 +5,16 @@
 body {
 	background: #000;
 	background-image: url(../img/bg_5762.jpg);
-	background-position: top center;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	@media (min-width: 576px) {
+		background-image : url(../img/bg_576.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+
+	}
 }
 
 .container {
@@ -90,7 +99,6 @@ a {
 
 .logo {
 	background-image: url(../img/logo_small.png);
-
 }
 
 .row {
