@@ -1,6 +1,11 @@
 * {
   box-sizing: border-box;
 }
+body {
+  background: #000;
+  background-image: url(../img/bg_5762.jpg);
+  background-position: top center;
+}
 .nav {
   width: 100%;
   background-color: #596275;
@@ -23,7 +28,7 @@
 .nav__item-link {
   color: #fff;
   text-decoration: none;
-  padding: 16px 20px;
+  padding: 10px 20px;
   display: block;
 }
 .nav__submenu {
@@ -34,7 +39,7 @@
 }
 .nav__submenu-link {
   display: block;
-  padding: 16px 20px;
+  padding: 10px 20px;
   color: #fff;
   text-decoration: none;
   transition: background 0.5s ease-in;
@@ -49,11 +54,14 @@
 .logo {
   background-image: url(../img/logo_small.png);
   background-repeat: no-repeat;
-  background-position: 30% 10%;
+  background-position: 20% 10px;
 }
 .test {
-  height: 100px;
-  background: red;
-  background: #51644c;
-  color: red;
+  padding: 0;
+}
+.logo {
+  background-image: url(../img/logo_small.png);
+}
+.row {
+  padding: 10px;
 }
